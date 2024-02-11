@@ -1,0 +1,17 @@
+sqlite:
+  adapter: sqlite3
+  database: ':memory:'
+
+mysql:
+  adapter: mysql2
+  database: redmine_crm_test
+  username: root
+  password: password
+  host: 127.0.0.1
+
+postgresql:
+  adapter: postgresql
+  database: redmine_crm_test
+  user: postgres
+  password: password
+  host: 127.0.0.1

@@ -1,0 +1,13 @@
+es:
+  label_redmine_crm_settings: Configuración
+  label_redmine_crm_money: Dinero
+
+  label_redmine_crm_disable_taxes: Deshabilitar impuestos
+  label_redmine_crm_default_tax: Impuesto por defecto
+  label_redmine_crm_tax_type: Tipo de impuesto
+  label_redmine_crm_tax_type_exclusive: Excluir
+  label_redmine_crm_tax_type_inclusive: Incluir
+  label_redmine_crm_default_currency: Moneda por defecto
+  label_redmine_crm_major_currencies: Monedas usadas
+  label_redmine_crm_thousands_delimiter: Separador de miles
+  label_redmine_crm_decimal_separator: Separador de decimales

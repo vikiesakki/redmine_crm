@@ -1,0 +1,13 @@
+cs:
+  label_redmine_crm_settings: Peníze
+  label_redmine_crm_money: Peníze
+
+  label_redmine_crm_disable_taxes: Znemožnit daně
+  label_redmine_crm_default_tax: Výchozí hodnota daně
+  label_redmine_crm_tax_type: Typ daně
+  label_redmine_crm_tax_type_exclusive: Bez daně
+  label_redmine_crm_tax_type_inclusive: Včetně daně
+  label_redmine_crm_default_currency: Výchozí měna
+  label_redmine_crm_major_currencies: Hlavní měny
+  label_redmine_crm_thousands_delimiter: Oddělovač tisíců
+  label_redmine_crm_decimal_separator: Desetinný oddělovač

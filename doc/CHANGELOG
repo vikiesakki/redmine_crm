@@ -1,0 +1,221 @@
+== Redmine CRM gem changelog
+
+Redmine crm gem - general functions for plugins (tags, vote, viewing, currency)
+Copyright (C) 2011-2023 RedmineUP
+https://www.redmineup.com/
+
+== 2023-12-26 v0.0.63
+
+* Compatibility fixes with attachment routes 
+
+== 2023-11-15 v0.0.62
+
+* Redmine 5.1 compatibility fixes
+
+== 2023-09-27 v0.0.61
+
+* Reverted time picker calendar
+* Added helper methods for time format
+
+== 2023-09-20 v0.0.60
+
+* Fixed SQL injection 
+* Added calendar with date time picker
+
+== 2023-01-16 v0.0.59
+
+* Fixed attachments constraint 
+* Added Spanish locale (Juan José Taguas Navarro)
+ 
+== 2022-09-26 v0.0.58
+
+* Added closed? method to Issue Drop
+* Added blank issue for Time Entry
+* Added helpdesk_ticket method for Issue Drop
+
+== 2022-02-14 v0.0.57
+
+* Fixed BigDecimal liquid bug for ruby > 2.6 
+
+== 2022-02-14 v0.0.56
+
+* Added rcrm_acts_as_priceable 
+* Added IssueRealtions drops
+
+== 2021-06-08 v0.0.55
+
+* Added Attachment Liquid drop
+* Added section to Checklist Liquid drop
+* Added Czech locale
+* Added German locale
+
+== 2020-08-10 v0.0.54
+
+* Fixed new JQuery select2 bug
+
+== 2020-04-07 v0.0.53
+
+* Multiselect styles cleanup
+* Added rubyzip dependence 
+
+== 2019-12-26 v0.0.52
+
+* select2 styles cleanup
+
+== 2019-12-20 v0.0.51
+
+* Changed drafts params 
+* Changed Money settings UI
+* Fixed bug with settings access
+
+== 2019-11-18 v0.0.50
+
+* Fixed bug with settings initialization
+
+== 2019-11-12 v0.0.49
+
+* Fixed settings compatibility bug
+
+== 2019-11-07 v0.0.48
+
+* Added global money setting
+* Fixed select2 format 
+
+== 2019-08-26 v0.0.47
+
+* Fixed bug with tag cloud 
+
+== 2019-08-14 v0.0.46
+
+* select2 update
+
+== 2019-08-13 v0.0.44
+
+* Fixed Safari scroll down bug
+* Multiaddress select helpers fixes
+* Fixed tags privacy bugs
+
+== 2019-05-07 v0.0.43
+
+* custom_field and custom_fields methods added from Reporter plugin
+* Added support for multi email contacts select
+* Fixed Safari select2 bug with moving screen
+* Fixed after_action method compatibility
+
+== 2018-10-24 v0.0.42
+
+* Hotfix for ruby 1.9.3 hashes support
+* Added ci image for ruby 1.9.3
+
+== 2018-10-23 v0.0.41
+
+* New fields for IssueDrop: tags, checklists, story_points, color, day_in_state
+* New Liquid filters for managing colors: darken_color, lighten_color, contrasting_text_color, hex_color, convert_to_brightness_value
+* Fixes for Drops to use nil delegates
+
+== 2018-09-28 v0.0.40
+
+* acts_as_draftable adopted for Redmine projects
+* New Liquid Drops: JournalsDrop, JournalDrop, TimeEntriesDrop, TimeEntryDrop
+* New liquid properties for issues: done_ratio, estimated_hours, spent_hours, total_spent_hours, total_estimated_hours, is_private, closed_on, assignee, tracker, status, priority, category, version, time_entries, parent, project, subtasks, notes, journals
+
+== 2018-03-28 v0.0.37
+
+* Added rcrm_acts_as_draftable
+* Added transform_to_select2 helper 
+
+== 2018-03-22 v0.0.36
+
+* select2_tag improvements
+
+== 2018-03-05 v0.0.35
+
+* Added select2_tag helper
+
+== 2017-12-22 v0.0.34
+
+* Fixed bug with Redmine 2.x support
+
+== 2017-12-18 v0.0.33
+
+* Rails 5 support (Redmine 4)
+* rcrm_acts_as_list (Redmine 4)
+* Bitcoin currency support
+
+== 2017-07-18 v0.0.32
+
+* charjs added
+
+== 2017-05-29 v0.0.31
+
+* select2 controls for contacts and people
+
+== 2017-05-23 v0.0.30
+
+* Fixed votable vote_by
+
+== 2017-03-21 v0.0.29
+
+* Updated available_tags method 
+
+== 2017-03-17 v0.0.28
+
+* Fixed bug with quote_value
+
+== 2017-03-13 v0.0.27
+
+* Added IP to Votes
+
+== 2017-03-10 v0.0.26
+
+* Liquid gem with base filters and drops for Redmine objects
+
+== 2016-11-12 v0.0.24
+
+* Liquid gem dependency
+
+== 2016-09-28 v0.0.23
+
+* Changed RUB sybmol
+* Added BYN currency
+
+== 2015-12-13 v0.0.22
+
+* Added a count for unique views of a object.
+
+== 2015-10-29 v0.0.21
+
+* Added space for CHF in currency format
+* Changed collection_for_currencies_select helper for major currencies
+
+== 2015-10-29 v0.0.20
+
+* Added checking for vesion format in requires_redmine_crm
+
+== 2015-10-29 v0.0.19
+
+* New requires_redmine_crm params format and error messages
+
+== 2015-10-28 v0.0.18
+
+* Rename 'requires_version' to 'requires_redmine_crm'
+
+== 2015-10-09 v0.0.17
+
+* Added js and css for tags
+* Added function 'requires_version' for check version of gem from Redmine plugin
+
+== 2015-09-26 v0.0.16
+
+* Totally remove dependency from Contact plugin
+
+== 2015-09-24 v0.0.15
+
+* Fixed bug for available tag when model not have a relation with a project
+* Added transfer of parameters for formatting a price
+
+== 2015-09-23 v0.0.14
+
+* Fixed bug in viewed? function
+* Add check for existing columns in table for votes
+* Fixed bug with thousands delimiter

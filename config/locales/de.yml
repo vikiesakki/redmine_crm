@@ -1,0 +1,13 @@
+de:
+  label_redmine_crm_settings: Währungseinstellungen
+  label_redmine_crm_money: Währung
+
+  label_redmine_crm_disable_taxes: Steuern deaktiviert
+  label_redmine_crm_default_tax: Standard Steuersatz
+  label_redmine_crm_tax_type: Steuerart
+  label_redmine_crm_tax_type_exclusive: Steuer ausgeschlossen
+  label_redmine_crm_tax_type_inclusive: Steuer eingeschlossen
+  label_redmine_crm_default_currency: Standard Währung
+  label_redmine_crm_major_currencies: Aktive Währungen
+  label_redmine_crm_thousands_delimiter: Tausendertrennzeichen
+  label_redmine_crm_decimal_separator: Dezimaltrennzeichen

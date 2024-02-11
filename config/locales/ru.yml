@@ -1,0 +1,13 @@
+ru:
+  label_redmine_crm_settings: Настройки валют
+  label_redmine_crm_money: Деньги
+
+  label_redmine_crm_disable_taxes: Отключить налоги
+  label_redmine_crm_default_tax: Ставка налога
+  label_redmine_crm_tax_type: Тип налога
+  label_redmine_crm_tax_type_exclusive: Налог добавлен к общей сумме
+  label_redmine_crm_tax_type_inclusive: Налог включен с общую сумму
+  label_redmine_crm_default_currency: Валюта по умолчанию
+  label_redmine_crm_major_currencies: Основные валюты
+  label_redmine_crm_thousands_delimiter: Разделитель разрядов
+  label_redmine_crm_decimal_separator: Десятичный разделитель
